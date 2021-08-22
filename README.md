@@ -1,3 +1,7 @@
+# Postdata-to-slack-channel
+
+Post the argument text to slack according to settings.json
+
 # 事前準備
 
 1. Slack -> アプリを管理 -> カスタムインテグレーション からIncoming Webhookを選択

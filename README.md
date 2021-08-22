@@ -17,6 +17,15 @@ Post the argument text to slack according to settings.json
 1. Enable environment variables for poetry `$ poetry shell`
 1. Run `$ python3 ./postdata-to-slack-channel/src/main.py "Text content you want to sent here"`
 
+# Slack mention format.
+notation|mention
+-|-
+<!here>|@here
+<!channel>|@channel
+<@user_id>|@ChiyodaTarou
+
+ref: https://qiita.com/ryo-yamaoka/items/7677ee4486cf395ce9bc
+
 # TODO
 - Write the test code.
 - Write the logging code.
